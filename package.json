@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack serve --config ./config/webpack.config.dev.js"
+    "start": "webpack serve --config ./config/webpack.config.dev.js",
+    "build":"webpack --config ./config/webpack.config.prod.js"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +15,8 @@
     "webpack": "^5.76.1",
     "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "p5": "^1.6.0"
   }
 }
