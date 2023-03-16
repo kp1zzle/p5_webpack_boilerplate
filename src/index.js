@@ -1,4 +1,4 @@
-import * as p5 from 'p5'
+import p5 from 'p5'
 
 let sketch = (s) => {
     s.setup = () => {
