@@ -16,6 +16,12 @@ Main benefits of this boilerplate over the p5 web editor or a simple local set u
 5. Edit `index.js` using any IDE or text editor you like. Every time you save the dev server will automatically refresh so you can see your changes live. 
 6. When you're happy with your sketch, commit your changes to the `main` branch and push them to GitHub. Your sketch will be automatically built and deployed to GitHub pages and will be live on the internet at `https://<your-username>.github.io/<repo-name>`
 
+## Extra Features
+I have created other branches with extra features that you can merge into your project if you'd like to use them.
+* SVG Export
+  * This adds a function called `s.export()` to your sketch. You can call it from the `draw()` function (make sure you've called `noLoop()`) or call it [when a key is pressed](https://p5js.org/reference/#/p5/keyPressed). 
+  * The branch is called `svg`. Run `git merge origin/svg` to merge it into your `main` branch.
+
 ## Troubleshooting
 * I forgot to check `Include all branches` when I created my repo from the template.
   * When you commit to `main` and push to GitHub, the pre-configured GitHub action will build the project and copy the build to a new branch called `gh-pages`. You will just have to go into the settings for your repo and configure GitHub pages to serve up the root of the `gh-pages` branch.  
