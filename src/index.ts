@@ -1,6 +1,6 @@
-import p5 from 'p5'
+import * as p5 from 'p5';
 
-let sketch = (s) => {
+let sketch = (s: p5) => {
     s.setup = () => {
         s.createCanvas(window.innerWidth, window.innerHeight)
         s.background(220);
