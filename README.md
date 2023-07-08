@@ -7,6 +7,7 @@ Main benefits of this boilerplate over the p5 web editor or a simple local set u
 * If you're using an IDE, you can click in to the p5 methods to see their arguments and how they work. 
 * Once you've cloned the repo to your local machine, you don't need an internet connection to work on your sketch. 
 * It deploys your sketch to GitHub pages automatically so you can easily share your sketch on the internet.
+* Functions to export as PNG and SVG are already implemented in the sketch. Press `s` to save as PNG and `shift+s` to save as SVG. 
 
 ## Getting Started
 1. Click the big green `Use this template` button at top right and `Create a new repository`. 
@@ -15,12 +16,6 @@ Main benefits of this boilerplate over the p5 web editor or a simple local set u
 4. In the terminal, `cd` into your newly cloned repo and run `npm run start` to start the dev server. 
 5. Edit `index.ts` using any IDE or text editor you like. Every time you save the dev server will automatically refresh so you can see your changes live. 
 6. When you're happy with your sketch, commit your changes to the `main` branch and push them to GitHub. Your sketch will be automatically built and deployed to GitHub pages and will be live on the internet at `https://<your-username>.github.io/<repo-name>`
-
-## Extra Features
-I have created other branches with extra features that you can merge into your project if you'd like to use them.
-* SVG Export
-  * This adds a function called `s.export()` to your sketch. You can call it from the `draw()` function (make sure you've called `noLoop()`) or call it [when a key is pressed](https://p5js.org/reference/#/p5/keyPressed). 
-  * The branch is called `svg`. Run `git merge origin/svg` to merge it into your `main` branch.
 
 ## Troubleshooting
 * I forgot to check `Include all branches` when I created my repo from the template.
